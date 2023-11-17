@@ -1,0 +1,28 @@
+.menugroup {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.menulist {
+  float: right;
+}
+.menulistleft{
+  float: left;
+}
+
+.menulistleft a,.menulist a {
+  font-size: 20px;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.menulist a:hover:not(.active) {
+  background-color:  #66e76a;
+}
+

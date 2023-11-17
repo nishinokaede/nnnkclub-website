@@ -1,0 +1,18 @@
+.footer {
+  text-align: center !important;
+  height: 150px;
+  line-height: 30px;
+  color: #fff;
+  background: black;
+  margin: 100px 0 0;
+  border-top: 1px solid black;
+}
+
+.copyright {
+  padding-top: 15px;
+}
+
+.pbox {
+  margin: 0;
+  line-height: 15px;
+}

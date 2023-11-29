@@ -6,10 +6,11 @@ export const schedules = [
     title: 'NO.1萤火生日',
     desc: '萤火生日'
   },
+
   {
     color:"blue",
     type: 'live',
-    date: '2023.12.01',
+    date: '2023.12.10',
     title: 'SD Livehouse',
     desc: '12月10日【广州】SD Livehouse'
   },

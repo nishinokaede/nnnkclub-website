@@ -52,9 +52,11 @@ const App = ({date}) => {
   };
 
   useEffect(() => {
-    const inputDate = date.substring(0, 4) + "-" + date.substring(4, 6);
-    if (dateToday.substring(0, 7) !== inputDate) {
-      setCalendarValue(() => dayjs(inputDate + "-01"));
+    if(date){
+      const inputDate = date.substring(0, 4) + "-" + date.substring(4, 6);
+      if (dateToday.substring(0, 7) !== inputDate) {
+        setCalendarValue(() => dayjs(inputDate + "-01"));
+      }
     }
   }, []);
   const navigate = useNavigate();

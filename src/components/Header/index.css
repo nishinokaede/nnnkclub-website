@@ -9,11 +9,12 @@
 .menu-list {
   float: right;
 }
-.menu-list-left{
+
+.menu-list-left {
   float: left;
 }
 
-.menu-list-left a,.menu-list a {
+.menu-list-left a, .menu-list a {
   font-size: 20px;
   display: block;
   color: rgb(255, 255, 255);
@@ -23,6 +24,7 @@
 }
 
 .menu-list a:hover:not(.active) {
-  background-color:  #66e76a;
+  background-color: #9b9b9b;
 }
+
 

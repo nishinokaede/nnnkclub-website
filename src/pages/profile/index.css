@@ -4,7 +4,6 @@
 
 .profile-header {
   margin: 0 7% 100px;
-  /*  变居中*/
   align-items: center;
 }
 
@@ -27,6 +26,9 @@
 }
 
 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
 }
 
@@ -38,5 +40,23 @@
 
 .profile-name {
   text-align: center;
+}
 
+.profile-circle {
+  text-decoration: none;
+  outline: none;
+  color: #000;
+}
+
+.profile-box {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.profile-leftBox {
+  flex: 40%;
+}
+
+.profile-rightBox {
+  flex: 10%;
 }

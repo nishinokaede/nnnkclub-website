@@ -1,0 +1,14 @@
+.box {
+  flex-direction: row;
+  display: flex;
+}
+
+.leftBox {
+  margin-left: 10%;
+  margin-right: 30px;
+}
+
+.rightBox {
+  margin-right: 10%;
+  margin-top: 50px;
+}

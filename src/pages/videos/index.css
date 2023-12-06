@@ -1,0 +1,11 @@
+.video-page-container {
+  margin: 30px 7%;
+
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}

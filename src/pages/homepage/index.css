@@ -1,0 +1,44 @@
+.banner {
+  height: 800px;
+  background-image: url("../../assets/images/jpg/head_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  transition: all ease 0.6s;
+  background-color: rgb(155, 247, 109);
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.banner-content {
+  font-size: 20px;
+}
+
+section {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.img1 {
+  background-image: url("../../assets/images/jpg/homePage.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.img2 {
+  background-image: url("../../assets/images/jpg/head_image.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}

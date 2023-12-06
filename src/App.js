@@ -8,6 +8,8 @@ import Videos from "./pages/videos";
 import NotFound from "./pages/404";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Detail from "./pages/profile/detail";
+import Test from "./pages/test/test";
 
 
 export default function App() {
@@ -19,8 +21,10 @@ export default function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/music" element={<Music/>}/>
         <Route path="/profile" element={<Profile/>}/>
+        <Route path="/profile/details/:id" element={<Detail/>}/>
         <Route path="/schedule" element={<Schedule/>}/>
         <Route path="/videos" element={<Videos/>}/>
+        <Route path="/test" element={<Test/>}/>
         <Route path="/*" element={<NotFound/>}/>
       </Routes>
       <Footer/>

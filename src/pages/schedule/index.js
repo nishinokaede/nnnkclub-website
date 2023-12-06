@@ -49,7 +49,15 @@ export default function Schedule() {
       {dateList.map((e) => {
         return <div className='schedule-title' key={e.date + e.title}>
           <h3 style={{margin: '10px 0'}}><Icon type={e.type}/>{e.title}</h3>
-          <p className='schedule-content'>{e.desc}</p>
+
+          <p className='schedule-content'>
+            {
+              e.address?`${e.address} | `:""
+            }
+            {
+              e.type+" | "
+            }
+            {e.desc}</p>
         </div>
       })}
     </div> : null

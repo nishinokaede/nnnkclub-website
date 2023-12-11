@@ -7,7 +7,7 @@ export const memberData = [
     birthday: '2023.10.10',
     weiboUrl: 'https://weibo.com/u/7002281871',
     bilibiliUrl: 'https://space.bilibili.com/7445109',
-    headerImage: '../../assets/images/jpg/1.jpg',
+    headerImage: '/images/1.jpg',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const memberData = [
     birthday: '2023.07.12',
     weiboUrl: 'https://weibo.com/u/6264335874',
     bilibiliUrl: 'https://space.bilibili.com/85513738',
-    headerImage: '../../assets/images/jpg/2.jpg'
+    headerImage: '/images/2.jpg'
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const memberData = [
     birthday: '2023.01.01',
     weiboUrl: 'https://weibo.com/u/7743187451',
     bilibiliUrl: 'https://space.bilibili.com/4853230',
-    headerImage: '../../assets/images/jpg/2.jpg'
+    headerImage: '/images/2.jpg'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const memberData = [
     birthday: '2023.06.03',
     weiboUrl: 'https://weibo.com/u/6448595902',
     bilibiliUrl: 'https://space.bilibili.com/249911313',
-    headerImage: '../../assets/images/jpg/2.jpg'
+    headerImage: '/images/2.jpg'
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const memberData = [
     birthday: '2023.09.23',
     weiboUrl: 'https://weibo.com/u/6222672918',
     bilibiliUrl: 'https://space.bilibili.com/190686840',
-    headerImage: '../../assets/images/jpg/2.jpg'
+    headerImage: '/images/2.jpg'
   },
   {
     id: 7,
@@ -57,6 +57,6 @@ export const memberData = [
     birthday: '2023.07.07',
     weiboUrl: 'https://weibo.com/u/3098483894',
     bilibiliUrl: 'https://space.bilibili.com/3178393',
-    headerImage: '../../assets/images/jpg/2.jpg'
+    headerImage: '/images/2.jpg'
   }
 ]

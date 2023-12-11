@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "nnnkclub-website",
+  "homepage": "https://nishinokaede.github.io/nnnkclub-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

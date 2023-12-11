@@ -10,7 +10,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Detail from "./pages/profile/detail";
 import Test from "./pages/test/test";
-
+import MusicDetail from "./pages/music/detail";
 
 export default function App() {
   return <>
@@ -24,6 +24,7 @@ export default function App() {
         <Route path="/profile/details/:id" element={<Detail/>}/>
         <Route path="/schedule" element={<Schedule/>}/>
         <Route path="/videos" element={<Videos/>}/>
+        <Route path="/music/details" element={<MusicDetail/>}/>
         <Route path="/test" element={<Test/>}/>
         <Route path="/*" element={<NotFound/>}/>
       </Routes>

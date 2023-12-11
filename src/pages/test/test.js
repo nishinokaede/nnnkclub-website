@@ -1,21 +1,33 @@
 import './index.css';
+import {Table} from "antd";
+import {KongFu} from "../../assets/lyrics/kongfu";
+import {useParams} from "react-router";
 
 export default function Test() {
-  return <div>
-    <section className="text">
-      广州女子偶像团体『娜娜捏口俱乐部』
-    </section>
-    <section className="img1">
-      以广州为中心活动的偶像团体
-    </section>
-    <section className="text">
-      以全国巡演为目标努力奋斗中
-    </section>
-    <section className="img2">
-      平价易购的非处方药物系偶像
-    </section>
-    <section className="text">
-      无限向你靠近 就这样保持零距离
-    </section>
+  const {live} = useParams();
+  const columns = [
+    {
+      title: '歌词及八拍数',
+      dataIndex: 'lyric',
+      key: 'lyric'
+    },
+    {
+      title: 'MIX',
+      dataIndex: 'mix',
+      key: 'mix'
+    },
+    {
+      title: '罗马音',
+      dataIndex: 'romaji',
+      key: 'romaji'
+    },
+    {
+      title: '动作',
+      dataIndex: 'action',
+      key: 'action'
+    },
+  ]
+  return <div className='music-container'>
+    <Table columns={columns} dataSource={KongFu} pagination={false}/>
   </div>
 }

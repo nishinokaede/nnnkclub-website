@@ -1,22 +1,26 @@
 import React from 'react';
-import {Alert, Avatar, List} from 'antd';
+import {Alert, Avatar, Button, List} from 'antd';
 import './index.css';
 
 const data = [
   {
     title: 'れもん☆れもねーど',
-    description: 'れもねーど'
+    description: 'れもねーど',
+    href: 'lemon'
   },
   {
     title: 'カンフーミラクル～愛～',
     description: 'カンフーミラクル～愛～',
+    href: 'kanfu'
   },
   {
     title: 'Happy(2020ver.)',
     description: 'Happy(2020ver.)',
+    href: 'happy'
   },
 ];
 const App = () => {
+
   return <div className='music-page-container'>
     <Alert
       message="Warning"
@@ -31,10 +35,13 @@ const App = () => {
       renderItem={(item, index) => (
         <List.Item>
           <List.Item.Meta
-            avatar={<Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`}/>}
-            title={item.title}
-            // title={<a href="https://ant.design">{item.title}</a>}
-            description={item.description}
+            avatar={<img
+              className='menu-logo'
+              src={require('../../assets/images/jpg/head_image.jpg')}
+              alt="logo"
+            />}
+            // title={item.title}
+            title={<Button type='link' href={`music/details?title=${item.href}`}>{item.title}</Button>}
           />
         </List.Item>
       )}

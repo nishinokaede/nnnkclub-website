@@ -16,7 +16,7 @@ jobs:
           npm install
           npm run-script build
       - name: nishinokaede
-        uses: JamesIves/github-pages-deploy-action@master
+        uses: JamesIves/github-pages-deploy-action@main
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages

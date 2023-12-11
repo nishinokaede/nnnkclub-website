@@ -20,7 +20,7 @@ jobs:
           npm install
           npm run-script build
       - name: nishinokaede
-        uses: nishinokaede/github-pages-deploy-action@4.1.1
+        uses: nishinokaede/nnnkclub-website
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages

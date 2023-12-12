@@ -1,5 +1,5 @@
 import React from 'react';
-import {Alert, Avatar, Button, List} from 'antd';
+import {Alert,  Button, List} from 'antd';
 import './index.css';
 
 const data = [

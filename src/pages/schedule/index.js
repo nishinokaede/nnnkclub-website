@@ -1,6 +1,6 @@
 import Calendar from "./calendar";
 import {useEffect, useState} from "react";
-import {useLocation, useNavigate} from "react-router";
+import {useNavigate} from "react-router";
 import {getDaysInMonth} from "../../utils/Common";
 import {schedules} from "../../assets/data/schedule";
 import './index.css';
@@ -52,10 +52,10 @@ export default function Schedule() {
 
           <p className='schedule-content'>
             {
-              e.address?`${e.address} | `:""
+              e.address ? `${e.address} | ` : ""
             }
             {
-              e.type+" | "
+              e.type + " | "
             }
             {e.desc}</p>
         </div>

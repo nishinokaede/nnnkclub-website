@@ -5,7 +5,7 @@ import zhCN from "antd/es/locale/zh_CN";
 import {ConfigProvider} from 'antd';
 import {schedules} from "../../assets/data/schedule";
 import dayjs from 'dayjs';
-import {useLocation, useNavigate} from "react-router";
+import {useNavigate} from "react-router";
 
 const App = ({date}) => {
   const currentDate = new Date();
@@ -52,7 +52,7 @@ const App = ({date}) => {
   };
 
   useEffect(() => {
-    if(date){
+    if (date) {
       const inputDate = date.substring(0, 4) + "-" + date.substring(4, 6);
       if (dateToday.substring(0, 7) !== inputDate) {
         setCalendarValue(() => dayjs(inputDate + "-01"));

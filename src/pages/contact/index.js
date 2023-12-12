@@ -1,4 +1,4 @@
-import {Card, Collapse, Space, Table, theme} from 'antd';
+import {Card, Space,} from 'antd';
 import Weibo from "../../assets/images/svg/weibo.svg";
 import Bili from "../../assets/images/svg/bilibili.svg";
 import React from "react";
@@ -103,7 +103,7 @@ const App = () => {
 
         <Card
           hoverable
-          style={{width: 260,marginTop:'20px'}}
+          style={{width: 260, marginTop: '20px'}}
           cover={
             <img
               src={require('../../assets/images/jpg/kanffu.jpg')}

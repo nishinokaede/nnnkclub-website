@@ -4,7 +4,6 @@ import {KongFu} from "../../assets/lyrics/kongfu";
 import {useParams} from "react-router";
 
 export default function Test() {
-  const {live} = useParams();
   const columns = [
     {
       title: '歌词及八拍数',

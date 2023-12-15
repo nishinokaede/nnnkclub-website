@@ -48,6 +48,7 @@ export default function Videos() {
         allowFullScreen="allowfullscreen"
         width="1000"
         height="500"
+        title='nnnkclub'
         scrolling="no"
         frameBorder="0"
         sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
